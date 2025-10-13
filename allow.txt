@@ -1,0 +1,15 @@
+X\-Frame\-Options\s\*:\s*DENY
+X\-XSS\-Protection\:0
+Content\-Length\:\d+
+Content\-Type\:\w+
+Date\:\w+
+Allow\:[GET|\,|POST]+
+X\-Content\-Type\-Options\:nosniff
+Referrer\-Policy\:strict\-origin\-when\-cross\-origin
+Content\-Type\:(.*?)charset\=UTF\-8
+Access\-Control\-Allow\-Origin\:(.*?)cps.sp.gov.br
+Cross\-Origin\-Opener\-Policy\:same\-origin
+Cross\-Origin\-Embedder\-Policy\:require\-corp
+Connection\:keep\-alive
+X\-DNS\-Prefetch\-Control\:off
+Keep\-Alive\:\w+

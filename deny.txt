@@ -1,0 +1,13 @@
+X\-AspNet\-Version\s*\:\s*\w+
+X\-Powered\-By\s*\:\s*\w+
+Server\:\s*\w+
+(.*?)\:(.*?)ASP\.NET
+X\-Frame\-Options\:\w+
+X\-XSS\-Protection\:\d+
+X\-Content\-Type\-Options\:\w+
+Referrer\-Policy\:[\w|*|\d]+
+Access\-Control\-Allow\-Origin\:\*
+ASP\.NET
+Set\-Cookie\:(.*?)PHPSESSID\=
+platform\:\w+
+panel\:\w+
