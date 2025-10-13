@@ -1,5 +1,7 @@
 import requests, re
 
+# Temos que nos basear em: https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html
+
 def header(url):
     print("[+] -> URL:", url);
     r = requests.get( url )
