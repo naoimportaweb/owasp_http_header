@@ -1,12 +1,12 @@
-import requests, re
+import requests, re;
 
 # Temos que nos basear em: https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html
 
 def header(url):
     print("[+] -> URL:", url);
-    r = requests.get( url )
-    # accessing response headers 
-    return r.headers
+    headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36'};
+    r = requests.get( url , headers=headers );
+    return r.headers;
 
 def remove(h):
     lista = [];
